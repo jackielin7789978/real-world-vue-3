@@ -17,10 +17,6 @@ export default {
 </script>
 
 <style scoped>
-* {
-    text-decoration: none;
-    color: #373737;
-}
 .event-card {
     width: 340px;
     height: 160px;
@@ -32,6 +28,7 @@ export default {
     justify-content: center;
     transition: all 0.2s;
     cursor: pointer;
+    text-decoration: none;
 }
 .event-card:hover {
     transform: scale(1.05);
