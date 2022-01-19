@@ -35,6 +35,7 @@ export default {
 }
 .event-card:hover {
     transform: scale(1.05);
+    color: #000;
 }
 .event-card__title {
     font-size: 22px;
